@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	background-image: url('images/beer.jpg');
+	background-size: cover;
+}
+
+a { text-decoration: none;
+	color: initial; }
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  color: white;
+  font-family: verdana;
+  font-size: 50px;
+  font-style: oblique;
+  position: absolute;
+  top: 8px;
+  right: 50%;
+}
+
+ .container {
+	 border: 1px solid black;
+	 position: absolute;
+	 top: 30%;
+	 left: 20%;
+	 display: grid;
+	 place-items: center;
+	 background-color: #128cfc;
+}
+ .items {
+	 width: 500px;
+	 background: #fffffe;
+	 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	 border-top: 10px solid #FFD535;
+}
+ .items-head p {
+	 padding: 5px 20px;
+	 margin: 10px;
+	 color: #0b5aa2;
+	 font-weight: bold;
+	 font-size: 20px;
+}
+ .items-head hr {
+	 width: 20%;
+	 margin: 0px 30px;
+	 border: 1px solid #0b5aa2;
+}
+ .items-body {
+	 padding: 10px;
+	 margin: 10px;
+	 display: grid;
+	 grid-gap: 10px;
+}
+ .items-body-content {
+	 padding: 10px;
+	 padding-right: 0px;
+	 display: grid;
+	 grid-template-columns: 10fr 1fr;
+	 font-size: 16px;
+	 grid-gap: 10px;
+	 border: 1px solid transparent;
+	 cursor: pointer;
+}
+ .items-body-content:hover {
+	 border-radius: 15px;
+	 border: 1px solid #0b5aa2;
+}
+ .items-body-content i {
+	 align-self: center;
+	 font-size: 15px;
+	 color: #0b5aa2;
+	 font-weight: bold;
+	 animation: icon 1.5s infinite forwards;
+}
+ @keyframes icon {
+	 0%, 100% {
+		 transform: translate(0px);
+	}
+	 50% {
+		 transform: translate(3px);
+	}
+}
+ 
