@@ -4,6 +4,23 @@ body {
 	background-size: cover;
 }
 
+@media (max-width : 720px) {
+	body {
+	margin: 0;
+	background-image: url('images/beer2.jpg');
+	background-size: cover;
+}
+
+	.title {
+	  color: white;
+	  font-family: verdana;
+	  font-size: 30px;
+	  font-style: oblique;
+	  position: absolute;
+	  left: 2px;
+	}
+}
+
 a { text-decoration: none;
 	color: initial; }
 
